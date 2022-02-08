@@ -1,5 +1,6 @@
-import ClazzMake from "../src/ClassLoader/ClazzMake";
-import TestModel from "../src/Model/TestModel";
+import ClazzMake from "../../src/ClassLoader/ClazzMake";
+import TestModel from "../../src/Model/TestModel";
+
 
 test('basic' , () => {
     const clazzMake = new ClazzMake<TestModel>();
