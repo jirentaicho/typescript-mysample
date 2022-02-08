@@ -8,4 +8,5 @@ export default class PrinterGeneric<T extends IPrinter>{
     public use(text : string): string{
         return this.printer.print(text);
     }
+
 }
